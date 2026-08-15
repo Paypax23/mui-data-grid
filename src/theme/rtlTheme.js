@@ -16,7 +16,7 @@ export const rtlTheme = createTheme({
   },
   palette: {
     primary: {
-      main: '#1976d2',
+      main: '#07657F',
     },
     success: {
       main: '#4caf50',

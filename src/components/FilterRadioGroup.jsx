@@ -17,8 +17,8 @@ export const FilterRadioGroup = ({ selectedFilter, onFilterChange }) => {
   ];
 
   return (
-    <Box sx={{ mb: 3, p: 2, backgroundColor: '#fff', borderRadius: 5 }}>
-      <FormControl component="fieldset">
+    <Box sx={{ mb: 3, p: 2, backgroundColor: '#fff', borderRadius: 5}}>
+      <FormControl sx={{flexDirection:"row"}} component="fieldset">
         <FormLabel component="legend" sx={{ mb: 1 }}>
           نمایش انتخابی:
         </FormLabel>
